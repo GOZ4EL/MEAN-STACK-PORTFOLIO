@@ -1,0 +1,17 @@
+<header>
+  <ul>
+    <li><a [routerLink]="['/sobre-mi']" [routerLinkActive]="['actived']">Sobre mí</a></li>
+    <li><a [routerLink]="['/contacto']" [routerLinkActive]="['actived']">Contacto</a></li>
+    <li class="logo"><a href="#">MG</a></li>
+    <li><a [routerLink]="['/proyectos']" [routerLinkActive]="['actived']">Proyectos</a></li>
+    <li><a [routerLink]="['/crear-proyecto']" [routerLinkActive]="['actived']">Crear Proyecto</a></li>
+  </ul>
+</header>
+
+<section id="content">
+  <router-outlet></router-outlet>
+</section>
+
+<footer>
+  GOZAEL 2020 (Proyecto final del Master en Javascript de VRW) &copy;
+</footer>
